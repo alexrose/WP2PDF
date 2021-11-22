@@ -16,6 +16,7 @@ use Mpdf\Config\FontVariables;
 require_once(__DIR__ . "/vendor/autoload.php");
 
 add_action('post_row_actions', 'add_wp2pdf', 10, 2);
+add_action('page_row_actions', 'add_wp2pdf', 10, 2);
 add_action('admin_post_wp2pdf_post', 'wp2pdf_generate');
 
 function add_wp2pdf($actions, $post)
