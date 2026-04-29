@@ -104,6 +104,7 @@ function getPdfHelperHtml(object $wpContent, ?string $wpThumbnail)
                 li { line-height: 22.7pt; margin: 0; padding: 0; }
                 p { margin: 0; padding: 0;  font-family: wp2pdf,serif; font-size: 14pt; line-height: 22.7pt; }
                 p.header { padding-left: 21mm; font-family: wp2pdf, serif; font-size: 18pt; color: #333333; }
+                p.is-style-text-label, p.is-style-text-label-2  { display: none; }
                 .none { display: none; }
                 .thumbnail {width: 20mm; height: 20mm; position: absolute; top: 16mm; right: 10mm; }
             </style>
