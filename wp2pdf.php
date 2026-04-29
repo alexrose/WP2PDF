@@ -89,7 +89,7 @@ function getPdfOptions()
 function getThumbnail(int $postId)
 {
     if ($wpThumb = get_field("thumb", $postId)) {
-        return $wpThumb['sizes']['receptar-banner'];
+        return $wpThumb['sizes']['medium'];
     }
 
     return null;
