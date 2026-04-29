@@ -1,13 +1,5 @@
 {
-  "autoload": {
-    "classmap": [
-      "src/"
-    ],
-    "psr-4": {
-      "App\\": "src/"
-    }
-  },
   "require": {
-    "mpdf/mpdf":  "8.0.10"
+    "mpdf/mpdf":  "8.3"
   }
 }
